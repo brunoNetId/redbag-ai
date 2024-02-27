@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/74-7.4.0.GA/templates/amq-broker-74-basic.yaml
+
+oc new-app --template=amq-broker-74-basic \
+-p AMQ_PROTOCOL=openwire,amqp,stomp,mqtt,hornetq \
+-p AMQ_USER=admin \
+-p AMQ_PASSWORD=admin
