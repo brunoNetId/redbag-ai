@@ -125,39 +125,21 @@
           </a-assets>
         
         <button id="btn-index" onclick="window.location.href='index.html'">Back</button>
-        <button id="btn-view1" onclick="setCameraFocus(0)" style="left:120px;width: 90px">Edge</button>
-        <button id="btn-view2" onclick="setCameraFocus(20)" style="left: 220px;width: 90px">Central</button>
-        <button id="btn-view3" onclick="setCameraFocus({x: 10, y:0, z:13})" style="left:320px;width: 90px">All</button>
-
-<!--         <button id="btn-train-data" onclick="trainData()">Train Data</button>
-        <button id="btn-sim-unzip" style="left:200px" onclick="simZipFile()">Sim Unzip</button>
-        <button id="btn-sim-pipeline-start" style="left:360px" onclick="simPipelineStart()">Sim Pipeline</button>
-        <button id="btn-sim-pipeline-end" style="left:520px" onclick="simPipelineEnd()">End Pipeline</button> -->
 
 
           <!-- Using the asset management system. -->
-          <a-image src="#iot-camera" position="-8 2 -.15" scale="2 2 2">
-            <a-text position="0 .4 0" value="IoT Camera" align="center" scale=".75 .75 .75"></a-text>
-            <!-- <a-box color="white" depth=".1" height=".5" width="0.5"></a-box> -->
-          </a-image>
-          <!-- <a-image src="#device" position="-8 0 0"  width="1.33" height="1"> -->
-            <a-image src="#device" position="-8 0 -.15">
+          <a-image src="#device" position="-8 0 -.15">
             <a-text position="0 -.8 0" value="Device" align="center" scale="1.5 1.5 1.5"></a-text>
           </a-image>
-          <a-image src="#mqtt-broker" position="-3.4 2 -.15">
-            <a-text position="0 .8 0" value="MQTT Broker" align="center" scale="1.5 1.5 1.5"></a-text>
-            <!-- <a-box color="tomato" depth=".1" height=".5" width="0.5"></a-box> -->
-          </a-image>
+
 
           <!-- 700x500 -->
           <a-image id="imgai" src="#ai" position="0 3 -.15" width="1.4" height="1" scale="2 2 2"> 
             <a-text position="0 .8 0" value="AI Engine" align="center" scale="1.5 1.5 1.5"></a-text>
-            <!-- <a-box color="blue" depth=".1" height=".5" width="0.5"></a-box> -->
           </a-image>
 
           <a-image src="#price" position="0 -3 -.15" width="1" height="1"> 
             <a-text position="0 -.8 0" value="Price Engine" align="center" scale="1.5 1.5 1.5"></a-text>
-            <!-- <a-box color="blue" depth=".1" height=".5" width="0.5"></a-box> -->
           </a-image>
 
           <a-image src="#s3green" position="4.75 1.5 -.15" width="1" height="1"> 
@@ -167,46 +149,7 @@
             <a-text position="0 -.8 0" value="Unclassified" align="center" scale="1.5 1.5 1.5"></a-text>
           </a-image>
 
-            <a-box color="grey" opacity=".2" depth=".1" height="10" width="3" position="-8 0 -.15" >
-            </a-box>
 
-            <a-box color="grey" opacity=".2" depth=".1" height="10" width="15" position="2.75 0 -.15" >
-            <!-- <a-box color="grey" opacity=".2" depth=".1" height="10" width="20" position=".25 0 -.15" > -->
-            </a-box>
-            <a-box color="grey" opacity=".05" depth=".1" height="10" width="4.250" position="8.175 0 -.15" >
-            </a-box>
-
-
-          <a-image src="#s3green" position="17.75 1.5 -.15" width="1" height="1"> 
-            <a-text position="0 .8 0" value="Training Data" align="center" scale="1.5 1.5 1.5"></a-text>
-          </a-image>
-          <a-image src="#s3green" position="26.75 1.5 -.15" width="1" height="1"> 
-            <a-text position="0 -.8 0" value="Models" align="center" scale="1.5 1.5 1.5"></a-text>
-          </a-image>
-
-          <a-image src="#s3green" position="26.75 -1.5 -.15" width="1" height="1"> 
-            <a-text position="0 -.9 0" value="Model\nRepository" align="center" scale="1.5 1.5 1.5"></a-text>
-          </a-image>
-
-
-
-            <a-box color="grey" opacity=".2" depth=".1" height="10" width="16" position="20.25 0 -.15" >
-            </a-box>
-
-
-          <!-- <a-entity> -->
-          <a-cylinder visible="false" id="signal" opacity="0" position="17.75 0 0" radius=".05" height="3" rotation="0 0 -90" color="lightblue">
-            <a-cone   visible="false" opacity="0" radius-bottom=".1" height=".25"  color="lightblue" position="0 1.5 0"/>
-          </a-cylinder>
-          <!-- </a-entity> -->
-
-            <!-- <a-box color="yellow" depth=".1" height="2.2" width="0.05" position="0 -1.1 -.5" >
-                <a-triangle color="yellow" position="0 -1.1 0" rotation="0 0 180" scale=".2 .2 .2"></a-triangle>
-            </a-box>
-            <a-box id="arrow" color="black" depth=".1" height="2.4" width="0.5" position="0 -1.1 -.5" >
-            </a-box> -->
-            <!-- <a-entity arrow="color: yellow" position="0 -1.8 0"></a-entity> -->
-            
 
 <!--       <a-entity id="main-camera" position="1.5 1.5 1.5" rotation="-30 30 0"> -->
       <!-- <a-entity id="main-camera" position="0 -2 8"> -->

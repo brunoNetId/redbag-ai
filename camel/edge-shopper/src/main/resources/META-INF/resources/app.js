@@ -106,7 +106,7 @@ cameraTrigger.onclick = function() {
 
     if(mode == "detection"){
         btnHttp.hidden = false
-        btnMqtt.hidden = false
+        // btnMqtt.hidden = false
     }
     else if(mode == "ingestion"){
         // sendHttpIngestionOptions(cameraOutput.src)
@@ -217,7 +217,7 @@ fileInput.onchange= function(event) {
         cameraOutput.classList.add("taken");
     
         btnHttp.hidden = false
-        btnMqtt.hidden = false
+        // btnMqtt.hidden = false
 
     };
     reader.onerror = function (error) {
@@ -339,7 +339,7 @@ function displayProducts(products){
     }
     deviceTrigger.hidden = true
     btnHttp.hidden = true
-    btnMqtt.hidden = true
+    // btnMqtt.hidden = true
 
     label1 = "Product unknown."
     label2 = "Tell us which is it:"
@@ -408,7 +408,7 @@ function submitProduct() {
     if(mode == "detection"){
         deviceTrigger.hidden = false
         btnHttp.hidden = false
-        btnMqtt.hidden = false
+        // btnMqtt.hidden = false
     }
 }
 
