@@ -39,4 +39,4 @@
                           expression: '{"price":"5.99"}'
                 expression:
                   simple:
-                    expression: ${body} == "banana"
+                    expression: ${body} == "tea-green"

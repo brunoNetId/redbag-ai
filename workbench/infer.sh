@@ -7,7 +7,7 @@ server=http://tf-server:8501/v1/models/redbag:predict
 # image=./samples/bali-tea.jpeg
 image=./samples/banana.jpeg
 
-curl -v \
+curl -s \
 -H "content-type: application/json" \
 $server \
 -d '
