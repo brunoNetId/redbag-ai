@@ -1,7 +1,7 @@
 # set -x
 
 # TensorFlow Server
-server=http://tf-server:8501/v1/models/redbag:predict
+server=http://lab-tf-server:8501/v1/models/redbag:predict
 # server=https://example-bmesegue-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/price
 
 # image=./samples/bali-tea.jpeg
