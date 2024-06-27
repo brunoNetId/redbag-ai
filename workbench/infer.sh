@@ -2,10 +2,12 @@
 
 # TensorFlow Server
 server=http://lab-tf-server:8501/v1/models/redbag:predict
-# server=https://example-bmesegue-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/price
 
-# image=./samples/bali-tea.jpeg
+# Camel Application Server
+# server=http://price:80/price
+
 image=./samples/banana.jpeg
+# image=./samples/bali-tea.jpeg
 
 curl -s \
 -H "content-type: application/json" \
