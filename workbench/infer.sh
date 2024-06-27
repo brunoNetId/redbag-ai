@@ -1,7 +1,7 @@
 # set -x
 
 # TensorFlow Server
-server=http://lab-tf-server:8501/v1/models/redbag:predict
+server=http://tf-server:8501/v1/models/redbag:predict
 
 # Camel Application Server
 # server=http://price:80/price
